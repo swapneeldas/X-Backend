@@ -167,7 +167,6 @@ export const logOut=async(req,res)=>{
             message:"User logged Out"
         })
     }
-
 export const GetMe=async(req,res)=>{
     console
     let id=req.user._id;

@@ -5,5 +5,5 @@ const router=Router();
 router.route("/Register").post(UserRegister);
 router.route("/LogIn").post(logIn);
 router.route("/LogOut").post(isLogedIn,logOut);
-router.route("/GetMe").post(isLogedIn,GetMe)
+router.route("/GetMe").post(isLogedIn,GetMe);
 export default router;
